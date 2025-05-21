@@ -27,8 +27,7 @@ public class PerfectNumber {
         Solution class */
         PerfectNumber sol = new PerfectNumber(); 
         
-        /* Function call to find whether the
-         given number is perfect or not */
+        
         boolean ans = sol.isPerfect(n);
         
         if(ans) {
