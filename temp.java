@@ -5,12 +5,12 @@ import java.util.Stack;
 import java.util.Vector;
 
 public class temp {
+    static void printName(String Name) {
+        System.out.println(Name);
+        printName("Tirk");
+    }
+
     public static void main(String[] args) {
-      HashSet<Integer> hs = new HashSet<>();
-      hs.add(1);
-      hs.add(2);
-      hs.add(1);
-      hs.add(0);
-      System.out.println(hs);
+      printName("Pritesh");
     }
 }
